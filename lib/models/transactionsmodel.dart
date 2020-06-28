@@ -1,0 +1,268 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart';
+
+class Transactions {
+  final IconData icon;
+  final String purpose;
+  final String remarks;
+  final int amount;
+  final String outcome;
+
+  Transactions(
+      {this.icon, this.purpose, this.remarks, this.amount, this.outcome});
+}
+
+List<Transactions> transaction = [
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: Icons.check,
+    purpose: 'Office Loan',
+    remarks: 'Fully Paid: June 17',
+    amount: 2088,
+    outcome: 'Paid',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+  Transactions(
+    icon: FontAwesome.clock_o,
+    purpose: 'Car Loan',
+    remarks: 'Next Due: June 17',
+    amount: 3588,
+    outcome: 'Pending',
+  ),
+];
