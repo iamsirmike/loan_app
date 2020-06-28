@@ -6,7 +6,7 @@ A new Flutter project.
 
 ## Screenshot
 <div align="center">
-    <img src="/screenshot/shot.jpg" width="400px" height="750" /> 
+    <img src="/ss/EbiORzeWoAsDzYF.jpeg" width="400px" height="750" /> 
 </div>
 
 This project is a starting point for a Flutter application.
